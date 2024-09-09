@@ -41,7 +41,7 @@ body {
 }
 
 .boxes {
-  font-size: 10px;
+  font-size: 14px;
 
   display: flex;
   width: 60%;
@@ -59,6 +59,7 @@ body {
   justify-content: space-between;
   margin-top: 10px;
 }
+
 h1 {
     font-size: 48px;
     font-weight: 900;
@@ -96,6 +97,8 @@ h1 {
 h2 {
   text-align: center;
   padding: 30px;
+  font-weight: 900;
+  font-size: 36px;
 }
 
 .box {
@@ -107,7 +110,7 @@ h2 {
 }
 
 .box p {
-    width: 70%;
+    width: 90%;
     padding-top: 5px;
     color: gray
 }
@@ -115,6 +118,37 @@ h2 {
 .box-img {
     border: #3882f6 solid 3px;
     border-radius: 10px;
+}
+
+.quote {
+    height: 40vh;
+    width: 100%;
+    background-color: #e5e7e8;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: gray;
+
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote p:first-child {
+    width: 80%;
+}
+
+
+
+.quote p:last-child {
+    color: #1f2937;
+    font-size: 20px;
+    font-weight: 900;
+
+    align-self: flex-end;
+    margin-right: 22%;
 }
 
 /* FORMATS */
@@ -125,8 +159,8 @@ h2 {
 }
 
 .box-img {
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
 }
 
 a {
